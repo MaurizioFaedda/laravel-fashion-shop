@@ -6,8 +6,8 @@
     </head>
     <body>
         <h1>Hello</h1>
-        @foreach ($movies as $movie)
-            <p>{{ $movie->brand}} </p>
+        @foreach ($dresses as $dress)
+            <p>{{ $dress->brand}} </p>
         @endforeach
     </body>
 </html>
